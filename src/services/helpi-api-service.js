@@ -5,7 +5,7 @@ class HelpiApiService {
 
     constructor() {
         this.http = axios.create({
-            baseURL: `https://help-i-api.azurewebsites.net/api`,
+            baseURL: `https://help-i.herokuapp.com/api`,
             headers: {
                 'accept': 'application/json'
             }

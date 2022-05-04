@@ -80,7 +80,8 @@ export default {
     retrieveGame(id) {
       HelpiApiService.getGamesBy(id)
       .then((response) =>{
-        this.game = response.data.resource;
+        this.game = response.data;
+        console.log(this.game)
       })
       .catch(e => {
         console.log(e);
@@ -89,7 +90,7 @@ export default {
     retrieveExperts(id){
       HelpiApiService.getExpertsByGameId(id)
       .then((response) =>{
-        this.experts = response.data;
+        this.experts = response.data.content;
       })
       .catch((e) => {
         console.log(e);
@@ -99,7 +100,7 @@ export default {
     retrieveTrainingMaterial(id){
       HelpiApiService.getTrainingMaterialGameId(id)
           .then((response) =>{
-            this.trainingMaterials = response.data;
+            this.trainingMaterials = response.data.content;
           })
           .catch((e) => {
             console.log(e);

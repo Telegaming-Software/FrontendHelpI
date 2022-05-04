@@ -51,7 +51,7 @@ export default {
     getGames(){
       this.helpiApi.getGamesApi()
       .then(response => {
-        this.games = response.data;
+        this.games = response.data.content;
       })
       .catch((e) => {
         console.log(e);
@@ -81,10 +81,6 @@ export default {
 
 .row{
   align-items: center;
-}
-
-.col{
-
 }
 
 h1{
