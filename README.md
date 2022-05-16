@@ -1,4 +1,4 @@
-# help-i-front-end
+# helpy-front-end
 
 ## Project setup
 ```
