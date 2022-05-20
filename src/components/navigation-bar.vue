@@ -1,6 +1,7 @@
 <template>
-  <v-app-bar app dark color=#666173>
-    <v-toolbar-title>HelpI</v-toolbar-title>
+  <v-app-bar app dark color=#141f6a>
+    <v-app-bar-nav-icon ></v-app-bar-nav-icon>
+    <v-toolbar-title>Helpy</v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items>
       <v-btn text to="/">home</v-btn>

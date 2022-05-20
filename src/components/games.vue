@@ -3,7 +3,7 @@
     <v-row class="row">
 
       <v-col class="col">
-        <h1>HelpI</h1>
+        <h1>Helpy</h1>
         <p>Choose your game</p>
         <button @click="navigateToRegister" type="button">Register now</button>
       </v-col>
@@ -84,7 +84,7 @@ export default {
 }
 
 h1{
-  color: #139028;
+  color: #141F6A;
   font-size: 32px;
 }
 
@@ -95,7 +95,7 @@ h1{
 }
 
 p{
-  color: #139028;
+  color: #141F6A;
   font-size: 15px;
   line-height: 1;
 }
@@ -116,7 +116,7 @@ button{
   font-family:'Roboto',sans-serif;
   font-weight:300;
   color:#FFFFFF;
-  background-color:#666173;
+  background-color:#141F6A;
   text-align:center;
   transition: all 0.2s;
 }
